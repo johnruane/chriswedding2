@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  /* height: 100vh; */
+  height: 100vh;
   font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -19,6 +19,7 @@ body {
   display: grid;
   justify-content: center;
   grid-template-columns: 1fr;
+  grid-template-rows: 2rem auto 2rem;
   align-content: center;
   max-width: 320px;
   height: 100%;
@@ -50,6 +51,7 @@ body {
 }
 
 .contentContainer {
+  grid-row: 2;
   background-color: #ffffff;
   padding: 1.5rem 1rem;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
