@@ -1,7 +1,7 @@
 :root {
   --color-black: #171717;
   --color-white: #fcfcfc;
-  --font-family-primary: "Poiret One", cursive;
+  --font-family-primary: "Poiret One", sans-serif;
   --font-family-secondary: "Open Sans", sans-serif;
 }
 
@@ -84,7 +84,7 @@ body {
 .iframeContainer {
   height: 126px;
   width: 218px;
-  margin: 0 auto 1rem;
+  margin: 0 auto 2rem;
 }
 
 @media (min-width: 375px) {
@@ -127,7 +127,7 @@ body {
   font-size: 24px;
   line-height: 1.3;
   font-family: var(--font-family-primary);
-  margin: 0 auto 1rem;
+  margin: 0 auto 3rem;
 }
 
 @media (min-width: 375px) {
@@ -147,7 +147,7 @@ body {
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 @media (min-width: 375px) {
@@ -167,6 +167,9 @@ body {
   font-size: 12px;
   line-height: 1.5;
   text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px dotted rgb(169 169 169);
 }
 
 @media (min-width: 768px) {
@@ -177,4 +180,10 @@ body {
 
 .link {
   color: var(--color-black);
+}
+
+.bodyText {
+  font-family: var(--font-family-secondary);
+  font-size: 16px;
+  line-height: 24px;
 }

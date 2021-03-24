@@ -8,12 +8,21 @@
     <meta name="description" content="Chris &amp; Ilona's wedding stream" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poiret+One&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poiret+One&display=block"
       rel="stylesheet"
+      as="style"
     />
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poiret+One&display=block"
+      media="print" onload="this.media='all'" 
+    />
+    <noscript>
+      <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poiret+One&display=block" />
+    </noscript>
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
@@ -21,9 +30,7 @@
       <div class="contentContainer">
         <div class="secondBorder">
           <h1 class="heading">Chris &amp; Ilona's<br />wedding stream</h1>
-          <div class="subHeading">
-            Click the play button below to watch the stream.
-          </div>
+
           <div class="iframeContainer">
             <iframe
               class="iframe"
@@ -37,6 +44,17 @@
             Can't see the video? Click <a class="link" href="#">HERE</a> to view
             on YouTube.
           </div>
+          <p class="bodyText">
+            Hey Everyone,<br /><br />
+            Thank you so much for joining us (virtually) on our special day!<br />
+            While it’s disappointing that we can’t see you all with us today, we hope you’ll enjoy watching our 
+            ceremony live online. Enjoy the show, raise a glass and we’ll be in touch soon with information about 
+            how we can celebrate together later this year!<br /><br />
+            Lots of love and stay safe,<br />
+            YAMAS!<br /><br />
+            Ilona and Chris<br />
+            xxx
+          </p>
         </div>
       </div>
     </div>
