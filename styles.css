@@ -16,6 +16,7 @@ body {
   background-position: center center;
   background-attachment: fixed;
   color: var(--color-black);
+  height: 100%;
 }
 
 .gridContainer {
